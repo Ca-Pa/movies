@@ -1,0 +1,228 @@
+#about {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#about .parallax {
+    background-image: -webkit-gradient(linear, left top, right top, from(#141414), color-stop(#57525cda), to(#350d10ef)), url(img/movies.png);
+    background-image: linear-gradient(to right, #141414, #57525cda, #350d10ef), url(img/movies.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#about .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 18px
+}
+
+#about .center p {
+    color: #fff
+}
+
+footer #contacts {
+    background-color: #141414;
+    text-align: center;
+    height: 150px
+}
+
+footer #contacts h1 {
+    font-size: 30px;
+    color: #fff
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body,
+html {
+    font-family: "Bebas Neue", cursive;
+    height: auto;
+    width: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.justify-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.justify-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.align-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.align-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.direction-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+#render {
+    padding: 30px;
+    height: auto;
+}
+
+#render form {
+    padding-bottom: 20px;
+}
+
+#render .movieContainer {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    margin-left: 2%;
+}
+
+#render section form>*{
+    display: block;
+    line-height: 25px;
+}
+
+#render section form input{
+    min-width: 300px;
+    margin-bottom: 10px;
+
+}
+
+header #logo {
+    background-color: #141414;
+    text-align: center;
+    padding: 2px
+}
+
+header #logo h1 {
+    font-size: 30px;
+    color: #fff
+}
+
+header #text-line {
+    border-bottom: 1px solid #b3b3b3;
+    border-top: 1px solid #b3b3b3;
+    text-align: center
+}
+
+header #text-line h2 {
+    font-size: 15px;
+    color: #141414;
+    padding: 10px
+}
+
+header .topnav {
+    overflow: hidden;
+    background-color: #000;
+    width: auto
+}
+
+header .topnav a {
+    float: left;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
+}
+
+header .topnav a:last-child {
+    float: right;
+    color: #fff
+}
+
+header .topnav a:hover {
+    background-color: #ddd;
+    color: #000
+}
+
+#stats {
+    height: 300px;
+    overflow: hidden;
+    position: relative
+}
+
+#stats .parallax {
+    background-image: -webkit-gradient(linear, left top, right top, from(#12c2e9e3), color-stop(#c471ede0), to(#f64f5ae5)), url(img/movies.png);
+    background-image: linear-gradient(to right, #00d0ffe3, #bd43fae0, #f64f5ae5), url(img/movies.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#stats .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 18px
+}
+
+.message {
+    position: fixed;
+    padding: 5px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.911);
+    z-index: 1;
+}
+
+.close-message {
+    float: right;
+    padding: 3px;
+}
